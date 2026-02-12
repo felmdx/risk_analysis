@@ -10,4 +10,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RiskAnalysis.Domain\RiskAnalysis.Domain.csproj" />
+    <ProjectReference Include="..\RiskAnalysis.Infrastructure\RiskAnalysis.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>
